@@ -16,10 +16,14 @@ export default function Register() {
                         <input type="password" className="form-control" id="exampleInputPassword1" />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="exampleInputPassword1" className="form-label">Reenter-Password : </label>
+                        <label htmlFor="exampleInputPassword1" className="form-label">Confirm Password : </label>
                         <input type="password" className="form-control" id="exampleInputPassword1" />
                     </div>
                     <button type="submit" className="btn">Submit</button>
+                </div>
+                <div className="col">
+                <p>Already have an account? <a href='/Login'>Login</a></p>
+                <p><a href='/'>Home</a></p>
                 </div>
         </div>
         </form>

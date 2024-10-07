@@ -25,3 +25,14 @@ background-color: rgb(47, 46, 46);
   gap:120px;
   margin-right: 50px;
 }
+.btns{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  button{
+    color:white;
+    background-color: blue;
+  }
+}
+
+
