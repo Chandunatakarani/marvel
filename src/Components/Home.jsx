@@ -9,7 +9,7 @@ export const Home = () => {
         <div className="homes">
             <Header />
             <h1 className="text-center">welcome to the react page</h1>
-            <div className="btns">
+            {/* <div className="btns">
                 <div className="fit">
                     <Link to='./Login'>
                         <button className="btn">Login</button>
@@ -19,9 +19,9 @@ export const Home = () => {
                     <Link to="./Register">
                         <button className="btn">Register</button>
                     </Link>
-                </div>
+                </div> */}
 
-            </div>
+            {/* </div> */}
         </div>
     )
 }
